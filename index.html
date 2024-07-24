@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestão de Tarefas</h1>
+        <nav>
+            <!-- Navegação -->
+        </nav>
+    </header>
+    <main>
+        <section id="taskSection">
+            <h2>Tarefas</h2>
+            <ul id="taskList"></ul>
+            
+               
+
+            <section id="userTasksSection">
+                <h2>Tarefas por Usuário</h2>
+                <input type="number" id="userIdInput" placeholder="ID do Usuário">
+                <button id="fetchUserTasksButton">Buscar Tarefas</button>
+                <ul id="userTaskList"></ul>
+            </section>
+            
+
+        </section>
+        <section id="addTaskSection">
+            <h2>Adicionar Nova Tarefa</h2>
+            <form id="taskForm">
+                <input type="text" id="taskTitle" placeholder="Título da Tarefa" required>
+                <textarea id="taskDescription" placeholder="Descrição da Tarefa (opcional)"></textarea>
+                <input type="number" id="userId" placeholder="ID do Usuário" required>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
