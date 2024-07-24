@@ -1,4 +1,3 @@
-// script.js
 const taskList = document.getElementById("taskList");
 const taskForm = document.getElementById("taskForm");
 const taskTitle = document.getElementById("taskTitle");
@@ -7,7 +6,7 @@ const userId = document.getElementById("userId");
 
 taskForm.addEventListener("submit", addTask);
 
-// script.js
+
 const userIdInput = document.getElementById("userIdInput");
 const fetchUserTasksButton = document.getElementById("fetchUserTasksButton");
 const userTaskList = document.getElementById("userTaskList");
